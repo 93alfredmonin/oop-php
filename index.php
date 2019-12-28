@@ -3,11 +3,12 @@
 include './Router.php';
 include './interface/Controller.php';
 
-//include './routes.php';
-//echo '<pre>';
-//var_dump($dataRoutes); die;
-//echo '</pre>';
 $Router = new Router();
 
-$Router ->executeController();
+include './view/header.php';
+
+// include dinamic content page
+$Router->executeController();
+
+include './view/footer.php';
 
