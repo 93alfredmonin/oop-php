@@ -6,12 +6,12 @@ $dataRoutes = [
         'controller' => 'HomeController',
         'action' => 'render'
     ],
-    'gallery' => [
+    '/gallery' => [
         'path' => './controller/GalleryController.php',
         'controller' => 'GalleryController',
         'action' => 'render'
     ],
-    'login' => [
+    '/login' => [
         'path' => './controller/LoginController.php',
         'controller' => 'LoginController',
         'action' => 'render'
